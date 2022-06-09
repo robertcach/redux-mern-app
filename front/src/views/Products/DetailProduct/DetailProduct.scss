@@ -1,0 +1,16 @@
+@import "/src/assets/stylesheets/general.scss";
+
+.details {
+  &__image{
+    width: 75%
+  }
+  
+  &__btn {
+    margin-top: 2rem;
+    @include btn-border($white-color, $black-color);
+
+    &:hover {
+      @include btn($black-color, $white-color);
+    }
+  }
+}

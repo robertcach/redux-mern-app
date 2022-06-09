@@ -1,0 +1,11 @@
+@import "/src/assets/stylesheets/general.scss";
+
+.new-product {
+  &__btn {
+    @include btn-border($white-color, $black-color);
+
+    &:hover {
+      @include btn($black-color, $white-color);
+    }
+  }
+}

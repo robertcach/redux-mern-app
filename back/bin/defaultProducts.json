@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "title": "Microphone SGF-457",
+    "description": "Your perfect pack for everyday",
+    "price": 20,
+    "image": "https://res.cloudinary.com/robertcach/image/upload/v1654462115/flat101/micro_hkel0j.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Mens Cotton T-Shirt",
+    "description": "Great outerwear jackets",
+    "price": 15,
+    "image": "https://res.cloudinary.com/robertcach/image/upload/v1654462115/flat101/t-shirt_xgeahf.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Sony Headphones",
+    "description": "Satisfaction Guaranteed",
+    "price": 32,
+    "image": "https://res.cloudinary.com/robertcach/image/upload/v1654462115/flat101/headphones_pwfq2u.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Macbook Pro (2022)",
+    "description": "Laptop for professionals",
+    "price": 45,
+    "image": "https://res.cloudinary.com/robertcach/image/upload/v1654462115/flat101/laptop_km6tn5.jpg"
+  }
+]

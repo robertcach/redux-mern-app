@@ -1,0 +1,70 @@
+@import '/src/assets/stylesheets/mixins.scss';
+@import '/src/assets/stylesheets/variables.scss';
+
+
+/* GENERAL STYLES */
+* {
+  @include reset-p-m();
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $black-color;
+  font-family: $main-font;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    @include mobile-width();
+  }
+}
+
+
+
+/* FONTS */
+
+h1, h2, h3, h4, p {
+  font-family: $main-font;
+}
+
+h1 {
+  font-size: 5rem;
+
+  @media (max-width: 768px) {
+    font-size: 3.5rem;
+  }
+}
+
+h2 {
+  font-size: 3rem;
+
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+  }
+}
+
+h3 {
+  font-size: 2.2rem;
+  font-weight: 600;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+
+p {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
